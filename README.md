@@ -1,19 +1,19 @@
 Name
 ----
 
-mongodb-rest - REST server for MongoDB
+mongodb-rest - REST server for MongoDB, forked from https://github.com/tdegrunt/mongodb-rest
 
 Description
 -----------
 
 This is a REST server for MongoDB using Node, using the native node.js MongoDB driver.
-Using Express, it can now start in any folder and will happily server any files a public folder.
+The only reason this fork exists was to make a slightly customized instance that I 
+could easily require/use at PaaS services.
 
 Installation
 ------------
 
-Installation is now via npm: `npm install mongodb-rest`.
-After that you can just issue `mongodb-rest` on the command line and the server should start.
+Installation is now via npm: `npm install panurgy-mongodb-rest`.
 
 Try
 ---
@@ -63,12 +63,11 @@ The SproutCore test needs to be run separately at the moment.
 Future
 ------
 
-* REST - PUT /db/collection - Update whole collection with changes in PUT body
-* Other useful commands (quit, reconnect, addUser, removeUser, etc)
+Not much of a future planned here
 
 Credits
 -------
-
+* [Tom de Grunt](https://github.com/tdegrunt/mongodb-rest)
 * [MongoDB Driver](http://github.com/christkv/node-mongodb-native)
 * [Express](http://expressjs.com/)
 * [npm](http://npmjs.org/)
